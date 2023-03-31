@@ -1,0 +1,11 @@
+{
+  "name": "gagik",
+  "version": "1.0.0",
+  "description": "Javascript lesson 1 ",
+  "main": "1",
+  "scripts": {
+    "test": "Test"
+  },
+  "author": "gagik_asatryan",
+  "license": "ISC"
+}
