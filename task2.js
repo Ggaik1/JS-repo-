@@ -54,20 +54,19 @@ persons = [
   }
 ];
 
- // create a function that will get any of the items from persons array as a parameter and return the 
+  //create a function that will get any of the items from persons array as a parameter and return the 
 // following string 'I have just met a person whose name is <firstname> + <lastname>';
-//let string = 'I have just met a person whose name is ';
-//function sentence() {
-  //return string + persons[1].firstname + " " + persons[1].lastname;
-//};
-//console.log(sentence());
+/* let string = 'I have just met a person whose name is ';
+function sentence() {
+  return string + persons[1].firstname + " " + persons[1].lastname;
+};
+console.log(sentence());
+*/
 
+/*let string = ' is from ';
 
-//let string = ' is from '
-
-//function Human() {
-  //return persons[2].firstname + ' ' + persons[2].lastname + ' is from ' + persons[3].nationality;
-//};
-//console.log(Human());
-
-let v
+function Human() {
+  return persons[2].firstname + ' ' + persons[2].lastname + ' is from ' + persons[3].nationality;
+};
+console.log(Human());
+*/
