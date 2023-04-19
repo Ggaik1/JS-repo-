@@ -1,13 +1,12 @@
 function numberQuantity(num) {
-    const randomNumber = Math.random();
-    let myNumber = num 
-    if(randomNumber < myNumber) {
-        return "Our data includes more cuantity than  ", randomNumber;
-    } else if(randomNumber > myNumber) {
-        return "Your " + randomNumber + " data includes more quantity than ours.";
+    const randomNumber = Math.floor(Math.random() *11);
+    if(randomNumber < num) {
+        return "You won, my generated number is " + randomNumber;
+    } else if(randomNumber > num) {
+        return "I won, my generated number is " + randomNumber;
     } else { 
         return 'equal', randomNumber;
-}
+    }
 };
 
-console.log(numberQuantity(0));
+console.log(numberQuantity(10));
