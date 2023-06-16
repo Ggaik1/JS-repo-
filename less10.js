@@ -39,7 +39,11 @@
         }
     ];
 
-    const nameWithLastname = persons.map(persons =>{ return {persons, fullname: persons.name + " " + persons.lastName};
-});
+    function firstAndLastName(arr) {
+        return arr.map((item) => {
+            item.fullname = item.name + " " + item.lastName;
+            return item;
+        });
+    }
 
-console.log(nameWithLastname);
+console.log(firstAndLastName(persons));
